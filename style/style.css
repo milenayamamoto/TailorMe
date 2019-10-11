@@ -93,3 +93,7 @@ button.dark-primary-color {
 .preco {
     font-size: 40px;
 }
+
+footer {
+    margin: 0 auto;
+}
