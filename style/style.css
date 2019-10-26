@@ -50,6 +50,13 @@ section {
     box-sizing: border-box;
 }
 
+main {
+    min-height: 100vh;
+    margin-top: 100px;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
 .newsletter {
     max-width: 100%;
     /* background-attachment: fixed; */
@@ -96,4 +103,16 @@ button.dark-primary-color {
 
 footer {
     margin: 0 auto;
+}
+
+table img {
+    width: 100px;
+}
+
+table tr td:last-child {
+    width: 200px;
+}
+
+#login img {
+    width: 500px;
 }

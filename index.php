@@ -1,4 +1,4 @@
-<?php require_once("header.php"); ?>
+<?php include_once("header.php"); ?>
 
 		<section id="banner">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -53,49 +53,6 @@
 								</ul>
 								<div class="text-center">
 									<p class="preco">R$150</p>
-									<button class="btn btn-outline-dark">Escolher</button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-
-					<div class="col">
-						<div class="card">
-							<img src="https://images.unsplash.com/photo-1516763296043-f676c1105999?ixlib=rb-1.2.1&auto=format&fit=crop&w=1026&q=80" class="card-img-top" alt="...">
-							<div class="card-body">
-								<p class="card-text">
-									<h3 class="text-center">TailorMe Regular</h3>
-								</p>
-								<ul class="lista-items">
-									<li><i class="fas fa-check-circle text-success"></i> 2x Camiseta(s)/Blusa(s)</li>
-									<li><i class="fas fa-check-circle text-success"></i> 1x Calça(s)/Saia(s)</li>
-									<li><i class="fas fa-check-circle text-success"></i> 1x Acessório(s)</li>
-									<li><i class="fas fa-times-circle text-dark"></i> Calçado(s)</li>
-								</ul>
-								<div class="text-center">
-									<p class="preco">R$300</p>
-									<button class="btn btn-outline-dark">Escolher</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card">
-							<img src="https://images.unsplash.com/photo-1479064555552-3ef4979f8908?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
-							<div class="card-body">
-								<p class="card-text">
-									<h3 class="text-center">TailorMe PRO</h3>
-								</p>
-								<ul class="lista-items">
-									<li><i class="fas fa-check-circle text-success"></i> 3x Camiseta(s)/Blusa(s)</li>
-									<li><i class="fas fa-check-circle text-success"></i> 1x Calça(s)/Saia(s)</li>
-									<li><i class="fas fa-check-circle text-success"></i> 2x Acessório(s)</li>
-									<li><i class="fas fa-check-circle text-success"></i> 1x Calçado(s)</li>
-								</ul>
-								<div class="text-center">
-									<p class="preco">R$500</p>
 									<button class="btn btn-outline-dark">Escolher</button>
 								</div>
 							</div>
@@ -177,4 +134,4 @@
 			
 		</div>
 
-<?php require_once("footer.php"); ?>
+<?php include_once("footer.php"); ?>

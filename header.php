@@ -17,7 +17,7 @@
 
 		<header>
 			<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark p-0 m-0">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="index.php">
 					<img src="imagens/TailorMe-logo-white.png" alt="">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -27,18 +27,27 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="#planos">Planos</a>
+							<a class="nav-link" href="index.php#planos">Planos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#sobre">Sobre</a>
+							<a class="nav-link" href="index.php#sobre">Sobre</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#contato">Contato</a>
+							<a class="nav-link" href="index.php#contato">Contato</a>
 						</li>
 					</ul>
 					<ul class="navbar-nav mr-3 d-lg-flex align-items-center">
 						<li class="nav-item mx-3">
-							<button type="button" class="btn btn-outline-light"><i class="far fa-user"></i> Entrar</button>
+						<?php
+							if(isset($_SESSION["logado"])) {
+								echo "<li><a class='nav-link'>Bem vindo, usuário</a></li>";
+								echo "<li><a href='login.php?logout=true'><button type='button' class='btn btn-outline-light'><i class='far fa-user'></i> Logout</button></a></li>";
+							} else {
+								echo "<a href='login.php'>";
+								echo "<button type='button' class='btn btn-outline-light'><i class='far fa-user'></i> Entrar</button></a>";
+							}
+						?>
+							
 						</li>
 						<li class="nav-item mx-3">
 							<span class="carrinho">
